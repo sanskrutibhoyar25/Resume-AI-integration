@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanskruti Bhoyar Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="resume">
+
+    <!-- HEADER -->
+    <div class="top-section">
+
+        <div class="top-line"></div>
+
+        <div class="header-content">
+            <h1>Sanskruti Bhoyar</h1>
+
+            <div class="contact-info">
+                <p>Wani, Maharashtra</p>
+                <p>sanskrutibhoyar25@gmail.com</p>
+                <p>7498066645</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div class="content">
+
+        <!-- LEFT -->
+        <div class="left-side">
+
+            <div class="image-box">
+                <img src="image.png" alt="Profile">
+            </div>
+
+            <div class="section">
+                <h2>EDUCATION</h2>
+
+                <div class="item">
+                    <h3>B.Tech - JD College of Engineering and Management</h3>
+                    <p>Information Technology</p>
+                    <p>Expected Graduation: 2028</p>
+                    <p>CGPA: 8.83</p>
+                </div>
+
+                <div class="item">
+                    <h3>HSC - Smt. Nusabai Chopne Mahavidyalaya</h3>
+                    <p>Percentage: 66.17%</p>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>PROJECTS</h2>
+
+                <div class="item">
+                    <h3>Canteen Billing System</h3>
+                    <p>
+                        Web-based system for billing,
+                        order processing and invoice generation.
+                    </p>
+                </div>
+
+                <div class="item">
+                    <h3>Peer-to-Peer Skill Exchange Platform</h3>
+                    <p>
+                        Community platform for learning,
+                        teaching and collaboration.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- RIGHT -->
+        <div class="right-side">
+
+            <div class="section">
+                <h2>OBJECTIVE</h2>
+
+                <p>
+                    To enhance technical and problem-solving
+                    skills while gaining practical experience
+                    in software development.
+                </p>
+            </div>
+
+            <div class="section">
+                <h2>TECHNICAL SKILLS</h2>
+
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Basics of C Programming</li>
+                    <li>Python</li>
+                    <li>VS Code</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>CERTIFICATIONS</h2>
+
+                <ul>
+                    <li>NPTEL - Enhancing Soft Skills & Personality</li>
+                    <li>Google Android Developer Virtual Internship</li>
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- CHAT BUTTON -->
+
+<div class="chat-toggle" onclick="toggleChat()">
+    💬
+</div>
+
+<!-- CHATBOT -->
+
+<div class="chat-container" id="chatContainer">
+
+    <div class="chat-header">
+        Ask About Me
+        <span class="close-chat" onclick="toggleChat()">✖</span>
+    </div>
+
+    <div class="chat-box" id="chatBox">
+
+        <div class="bot-message">
+            👋 Hi! I'm Sanskruti's Resume Assistant.
+
+            Ask me about:
+            Education,
+            Skills,
+            Projects,
+            Certifications,
+            Contact Details,
+            CGPA,
+            Objective
+        </div>
+
+    </div>
+
+    <div class="chat-input">
+        <input
+            type="text"
+            id="userInput"
+            placeholder="Ask something..."
+        >
+        <button onclick="sendMessage()">Send</button>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
